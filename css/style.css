@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    font-size: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* header start */
+header{
+    background: #00243A;
+    padding: 1% 1%;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    padding-bottom: 10px;
+}
+header nav{
+    justify-content: space-between;
+    color: white;
+}
+header nav .logo{
+    width: 150px;
+}
+header nav ul{
+    width: 500px;
+    justify-content: space-between;
+}
+header nav ul li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 10px;
+}
+header nav ul button{
+    padding: 10px 20px;
+    border: none;
+    background: #009BFF;
+    color: #fafafa;
+    font-weight: 700;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+header nav ul button:hover{
+    background: #00243A;
+}
+
+.fa-navicon{
+    font-size:3rem;
+    position: absolute;
+    right: 5%;
+    color: grey;
+    display: none;
+}
+/* header ends */
+
+/* banner start */
+.banner{
+    width: 100%;
+    background: #00243A;
+    padding-bottom: 50px;
+}
+.banner-inner{
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner-inner .box{
+ width: 50%;
+}
+.banner-inner img{
+ width: 80%;
+ margin: 0 auto;
+} 
+.banner-inner .text h1{
+    font-size: 4rem;
+    color: #fafafa;
+    margin-top: 50px;
+}
+.banner-inner .text p{
+    color: grey;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.banner-inner .text button{
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    color: #fafafa;
+    background: #009BFF;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property:color ;
+    transition: 0.5s;
+}
+.banner-inner .text button:hover{
+    color: black;
+}
+/* banner ends */
+
+/* section 2 start */
+.section2{
+    padding: 5% 5%;
+}
+.section2 .box{
+    width: 32%;
+    text-align: center;
+    padding: 2% 1%;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.section2 .box h1{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section2 .box em{
+    font-size: 1.5rem;
+}
+.section2 .box p{
+    font-size: 1.4rem;
+    line-height: 25px;
+    color: grey;
+    margin-top: 20px;
+
+}
+.section2 .box:hover{
+    box-shadow: 0px 5px 7px 0px grey;
+    transform: scale(1.1);
+}
+/* section 2 ends */
+
+/* number start */
+.numbers-speak{
+    width: 100%;
+    background-color: #002B3C;
+    padding: 5% 1%;
+}
+.number-inner{
+    justify-content: space-evenly;
+}
+.number-inner .box{
+    text-align: center;
+    border: 2px solid white;
+    width: 20%;
+    padding-top :5%;
+    padding-bottom:  5%;
+    color: #fafafa;
+}
+.numbers-speak  .number-inner .box h1{
+    font-size: 5rem;
+}
+.numbers-speak  .number-inner .box p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* number ends */
+
+
+/* section3 start */
+.section3{
+    padding: 5% 1%;
+}
+.section3 .head{
+    font-size: 5rem;
+    text-align: center;
+}
+.section3 .six-box{
+    justify-content: space-evenly;
+}
+.section3 .six-box .box{
+    width: 30%;
+    text-align: center;
+    padding: 5%;
+    margin-top: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+.section3 .six-box .box h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section3 .six-box .box p{
+    font-size: 1.5rem;
+    color: grey;
+}
+.section3 .six-box .box:hover{
+    box-shadow: 0px 5px 7px 0px black;
+    transform: scale(1.1);
+}
+/* section 3 ends */
+
+/* section 4 start */
+.section4{
+    width: 100%;
+    padding: 5% 1%;
+    background: #F6FAF5;
+}
+.section4 .text{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section4 .text .box{
+    width: 40%;
+}
+.section4 .text .head{
+    font-size: 3rem;
+    color: #2B505D;
+    line-height: 55px;
+}
+.section4 .text .para p{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.section4 .image{
+      width: 100%;
+      justify-content: space-evenly;
+      margin-top: 50px;
+}
+/* section 4 ends */
+.last-section-inner{
+    justify-content: space-between;
+    padding: 5%  1%;
+}
+.last-section  .map{
+    width: 55%;
+    text-align: center;
+}
+.last-section .text{
+    width: 40%;
+    text-align: center;
+    padding:10px;
+}
+.last-section .map  iframe{
+    width: 100%;
+    height: 300px;
+}
+.last-section .text h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.last-section .text .line1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #012944;
+}
+.last-section .text .line2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #012944;
+}
+/* last section ends */
+
+/* footer start */
+footer{
+        border-top: 1px solid grey;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        color: rgb(136, 136, 136);
+}
+/* footer ends */
+
+/* media query start */
+@media only screen and (max-width:900px){
+    header nav{
+        flex-direction: column;
+    }
+    header nav ul{
+        margin-top: 20px;
+        border-top: 1px solid silver;
+        width: 100%;
+        display: none;
+        padding-top: 20px;
+        top: 50px;
+        display: none;
+
+    }
+    .fa-navicon{
+        display: block;
+    }
+    html{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .banner-inner .box{
+         width: 100%;
+         text-align:center;
+    }
+    .banner-inner .image{
+        margin-top: 50px;
+    }
+
+    .section2 .box{
+        width: 45%;
+    }
+    .number-inner .box{
+         width: 45%;
+         margin-top: 15px;
+    }
+
+    .section3 .six-box .box{
+        width: 45%;
+    }
+    .section4 .text .box{
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .section4 .image{
+       flex-direction: column;
+       margin-top: 10px;
+    }
+    .section4 .image img{
+         width: 150px;
+         margin: 0 auto;
+         margin-top: 20px;
+    }
+    .last-section-inner .map{
+       width: 100%;
+    }     
+    .last-section-inner .text{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .section2 .box{
+        width: 100%;
+    }
+    .number-inner .box{
+        width: 100%;
+    }
+    .section3 .six-box .box{
+        width: 100%;
+    }
+}
+
+/* media query ends */
